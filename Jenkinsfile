@@ -3,13 +3,13 @@ import org.apache.tools.ant.types.Environment
 pipeline {
     agent any
     environment{
-       NEW-VERSION='1.3.0'
+       NEW_VERSION = '1.3.0'
     }
     stages {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-                echo "cool ca marche ${NEW-VERSION}"
+                echo "cool ca marche ${NEW_VERSION}"
             }
         }
         
