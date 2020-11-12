@@ -3,7 +3,7 @@ import org.apache.tools.ant.types.Environment
 pipeline {
     agent any
     environnement{
-
+       NEW-VERSION = '1.3.0'
     }
     stages {
         stage('Hello') {
