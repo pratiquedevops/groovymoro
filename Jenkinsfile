@@ -9,6 +9,7 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
+                echo "cool ca marche ${NEW-VERSION}"
             }
         }
         
